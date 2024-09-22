@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sls": "sls"
+    "dev": "sls offline",
+    "deploy": "sls deploy"
+
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "serverless": "3.38"
+    "serverless": "3.38",
+    "serverless-offline": "^13.8.0"
   }
 }

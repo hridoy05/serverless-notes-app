@@ -4,7 +4,12 @@ frameworkVersion: "3"
 provider:
   name: aws
   runtime: nodejs20.x
+  region: ap-south-1
 
 functions:
   hello:
     handler: handler.hello
+
+
+plugins:
+  - serverless-offline
