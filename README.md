@@ -9,3 +9,7 @@
 
 ## configure aws cli
  - npm run sls -- cofig credentials --provider aws --key [key] --secret [key]
+
+# dynamodb steps
+ - use clooudformation in serverless.yml file
+ - use resources key word
