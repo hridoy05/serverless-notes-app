@@ -7,13 +7,15 @@
     "dev": "sls offline",
     "deploy": "sls deploy",
     "destroy": "serverless remove --stage dev --region ap-south-1"
-
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@aws-sdk/client-dynamodb": "^3.656.0",
+    "@aws-sdk/lib-dynamodb": "^3.656.0",
     "serverless": "3.38",
+    "serverless-iam-roles-per-function": "^3.2.0",
     "serverless-offline": "^13.8.0"
   }
 }
